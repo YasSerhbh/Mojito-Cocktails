@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 const App = () => {
   return (
     <div className='font-bold'>App</div>
+    
   )
 }
 
