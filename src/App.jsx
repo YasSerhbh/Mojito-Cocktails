@@ -2,6 +2,7 @@ import gsap from 'gsap'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import React from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <main className='min-h-[200vh]'>
         <Navbar />
+        <Hero />
     </main>    
   )
 }
